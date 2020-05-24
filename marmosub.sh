@@ -23,7 +23,7 @@ fi
 course=$1
 project=$2
 selected=""
-marmoset_cli="<PATH TO MARMOSET CLI>"
+marmoset_cli="/u/cs_build/bin/marmoset"
 shift
 shift
 for file in $@; do
